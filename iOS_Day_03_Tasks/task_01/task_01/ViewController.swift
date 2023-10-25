@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //MARK: - IBOutlets
+
     @IBOutlet weak var descreption: UILabel!
     @IBOutlet weak var img: UIImageView!
     
@@ -40,5 +43,6 @@ class ViewController: UIViewController {
             setIU()
         }
     }
+
 }
 
